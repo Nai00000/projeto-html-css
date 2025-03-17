@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=DynaPuff:wght@400..700&display=swap');
+   
+   * {
+        margin:0;
+        padding:0;
+    }
+    body {
+        height: 100vh;
+        box-sizing: border-box;
+        background-color: #EFC69B;
+        color:red;
+    }
+    .titulo-destaque {
+        color: #a01baf;
+    }
+    .apresentacao {
+            margin: 10% 20%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    .apresentacao__conteudo {
+            width:615px ;
+            display:flex;
+            flex-direction: column;
+            gap: 40px;
+            }
+    .apresentacao__conteudo__titulo {
+                font-size:36px;
+                font-family:"DynaPuff", system-ui;
+            }
+    .apresentacao__conteudo__texto {
+        font-size:24px ;
+        font-family:"Delius", cursive;
+    }
+    .apresentacao__conteudo__link {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 32px;
+    }
+    .apresentacao__conteudo__link__link {
+        width: 280px;
+        text-align:center;
+        border-radius:16px;
+        font-size:24px;
+        padding:21.5px 0;
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        font-family:"Delius", cursive;
+    }
+.apresentacao__link__subtitulo {
+    font-family:"Delius", cursive;
+    font-size: 20px;
+}

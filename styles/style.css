@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=DynaPuff:wght@400..700&display=swap');
+   
+   * {
+        margin:0;
+        padding:0;
+    }
+    :root {
+        --cor-primaria:#C7DB9C;
+        --cor-secundaria:#FFF0BD;
+        --cor-terciaria:#FDAB9E;
+        --cor-hover:#E50046;
+        --cor-borda:#F6F6F6;
+        --font-primaria: "DynaPuff", system-ui;
+        --fonte-secundaria: "Delius", cursive;
+    }
+    body {
+        /* height: 100vh; */
+        box-sizing: border-box;
+        background-color: var(--cor-primaria);
+        color: var(--cor-secundaria);
+    }
+    .cabecalho {
+        padding: 2% 0% 0% 15%;
+    }
+    .cabecalho__menu {
+        display:flex;
+        gap:80px;
+    }
+    .cabecalho__menu__link {
+        font-family: var(--font-primaria);
+        font-size: 20px;
+        color:var(--cor-terciaria);
+        text-decoration: none;
+    }
+    .apresentacao {
+            margin: 5% 15%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    .titulo-destaque {
+            color: var(--cor-terciaria);
+        }
+    .apresentacao__conteudo {
+            width:615px ;
+            display:flex;
+            flex-direction: column;
+            gap: 40px;
+            }
+    .apresentacao__conteudo__titulo {
+                font-size:36px;
+                font-family:var(--font-primaria);
+            }
+    .apresentacao__conteudo__texto {
+        font-size:24px ;
+        font-family:var(--fonte-secundaria);
+    }
+    .apresentacao__conteudo__link {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 32px;
+    }
+    .apresentacao__conteudo__link__link {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        border: 2px solid var(--cor-borda);
+        width: 378px;
+        text-align:center;
+        border-radius: 8px;
+        font-size: 24px;
+        padding:21.5px 0;
+        text-decoration: none;
+        color:var(--cor-borda);
+        font-family:var(--cor-secundaria);
+    }
+    .apresentacao__conteudo__link__link:hover {
+       background-color: var(--cor-hover); 
+    }
+.apresentacao__link__subtitulo {
+    font-family:var(--fonte-secundaria);
+    font-size: 20px;
+}
+.rodape {
+    padding: 24px;
+    color:var(--cor-primaria);;
+    background-color:var(--cor-terciaria);
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+}
